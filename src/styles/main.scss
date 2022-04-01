@@ -1,1 +1,29 @@
 @import '~normalize.css';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #graph {
+    border: 1px solid black;
+
+    .link {
+       fill: none;
+       stroke: rgb(6, 123, 6);
+       stroke-width: 3px;
+     }
+     .node {
+       stroke: rgb(212, 41, 41);
+       stroke-width: 2.5px;
+       fill: rgb(12, 199, 68);
+     }
+     .text {
+       font: 0.8rem sans-serif;
+       pointer-events: none;
+       text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+     }
+  }
+}

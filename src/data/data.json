@@ -1,0 +1,82 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Oslo"
+      },
+      {
+        "id": 2,
+        "name": "Berlin"
+      },
+      {
+        "id": 3,
+        "name": "London"
+      },
+      {
+        "id": 4,
+        "name": "Warsaw"
+      },
+      {
+        "id": 5,
+        "name": "Moskow"
+      },
+      {
+        "id": 6,
+        "name": "Paris"
+      },
+      {
+        "id": 7,
+        "name": "Frankfurt"
+      },
+      {
+        "id": 8,
+        "name": "Heteborg"
+      },
+      {
+        "id": 9,
+        "name": "Helsinki"
+      },
+      {
+        "id": 10,
+        "name": "Stokholm"
+      }
+    ],
+    "links": [
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 3
+      },
+      {
+          "source": 1,
+          "target": 4
+      },
+      {
+          "source": 2,
+          "target": 5
+      },
+      {
+          "source": 2,
+          "target": 6
+      },
+      {
+          "source": 3,
+          "target": 7
+      },
+      {
+          "source": 3,
+          "target": 8
+      },
+      {
+          "source": 4,
+          "target": 9
+      },
+      {
+          "source": 4,
+          "target": 10
+      }
+    ]
+  }
